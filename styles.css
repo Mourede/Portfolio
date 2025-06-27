@@ -1,0 +1,176 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9fb; /* very light gray/white */
+  color: #2c3e50; /* dark navy text */
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #0a2e6e; /* navy blue */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #ffffff; /* white text */
+  font-weight: 700;
+}
+
+nav a {
+  color: #ffffff; /* white links */
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #aac4ff; /* lighter navy on hover */
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #0a2e6e; /* navy */
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #0a2e6e;
+  padding-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+/* Projects */
+.project {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(10, 46, 110, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+  box-shadow: 0 6px 18px rgba(10, 46, 110, 0.4);
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.project a {
+  color: #0a2e6e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.skills-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(10, 46, 110, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 2px solid #0a2e6e;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #aac4ff;
+  outline: none;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #0a2e6e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #aac4ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #0a2e6e;
+  color: #f9f9fb;
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Links inside paragraph (like email link) */
+a {
+  word-break: break-word;
+}
+
+a.email-link {
+  color: #0a2e6e;
+  font-weight: 600;
+}
+
+a.email-link:hover {
+  color: #aac4ff;
+  text-decoration: underline;
+}
