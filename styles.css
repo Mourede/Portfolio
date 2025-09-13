@@ -160,7 +160,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Links inside paragraph (like email link) */
+
 a {
   word-break: break-word;
 }
@@ -174,3 +174,4 @@ a.email-link:hover {
   color: #aac4ff;
   text-decoration: underline;
 }
+
